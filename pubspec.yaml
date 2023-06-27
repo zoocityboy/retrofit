@@ -1,0 +1,21 @@
+name: retrofit
+version: 3.3.1
+
+homepage: https://mings.in/retrofit.dart/
+repository: https://github.com/trevorwang/retrofit.dart/
+description: retrofit.dart is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  # dio: ^4.0.6
+  dio:
+    git:
+      url: https://github.com/zoocityboy/dio.git
+      ref: main
+  meta: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.1.1
